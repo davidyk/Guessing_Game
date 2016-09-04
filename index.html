@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    
+
+    <!-- Bootstrap and CSS here-->
+   
+
+  </head>
+  <body>
+
+      <div id='app' class="container">
+        <div id='headers' class="center">
+          <!-- Title and subtitles! -->
+          <H1>Guessing Game</H1>
+          <H2>Guess any number between 1 and 100</H2>
+        </div>
+
+        <div id='main' class="center">
+          <div id='parent-input'>
+            <!-- Player's guess input, and submit button -->
+            <input type="number" name="guessnumber" maxlength="3" height="250" autofocus >
+            <input class="btn btn-lg btn-primary" type="submit" value="Submit">
+            
+          </div>
+
+          <div id='guesses' class="center">
+            <!-- unordered list of guesses -->
+            <ul class="guess">
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button class="btn btn-lg btn-default" type="reset">Reset</button>
+            <button class="btn btn-lg btn-default" type="button">Hint (You so weak...)</button>
+          </div>
+        </div>
+      </div>
+
+  
+
+
+    <div id='footer' class="center row">
+        <div>
+          <div class='col-md-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-md-4'>
+            <h4>Project by David Kim</h4>
+          </div>
+
+          <div class='col-md-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
